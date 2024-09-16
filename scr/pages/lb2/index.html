@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<h2>Статистика продажу автомобілів</h2>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Марка автомобіля</th>
+        <th>Січень</th>
+        <th>Лютий</th>
+        <th>Березень</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Toyota</td>
+        <td>270 000</td>
+        <td>250 000</td>
+        <td>300 000</td>
+    </tr>
+    <tr>
+        <td>Volkswagen</td>
+        <td>250 000</td>
+        <td>200 000</td>
+        <td>270 000</td>
+    </tr>
+    <tr>
+        <td>Renault-Nissan</td>
+        <td>130 000</td>
+        <td>150 000</td>
+        <td>200 000</td>
+    </tr>
+    <tr>
+        <td>ВСЬОГО:</td>
+        <td>650 000</td>
+        <td>600 000</td>
+        <td>770 000</td>
+    </tr>
+    </tbody>
+</table>
+<hr/>
+
+<h2>Розклад занять</h2>
+<table border="1">
+    <thead>
+    <tr>
+        <th rowspan="2">День тижня</th>
+        <th rowspan="2">Академічні години</th>
+        <th colspan="3">ШИФР ГРУПИ</th>
+    </tr>
+    <tr>
+        <th>КН-2.01</th>
+        <th>КН-2.02</th>
+        <th>КН-2.03</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="3">ПОНЕДІЛОК</td>
+        <td>8.00-9.20</td>
+        <td colspan="3">Веб-технології та веб-дизайн</td>
+    </tr>
+    <tr>
+        <td>9.35-10.55</td>
+        <td>Об'єктно-орієнтоване програмування</td>
+        <td>Дискретна математика</td>
+        <td>Теорії алгоритмів</td>
+    </tr>
+    <tr>
+        <td>11.10-12.30</td>
+        <td colspan="3">Продакт-менеджмент</td>
+    </tr>
+
+    <tr>
+        <td rowspan="3">ВІВТОРОК</td>
+        <td>8.00-9.20</td>
+        <td colspan="3">Дискретна математика</td>
+    </tr>
+    <tr>
+        <td>9.35-10.55</td>
+        <td>Імітаційне моделювання</td>
+        <td>Об'єктно-орієнтоване програмування</td>
+        <td>Теорії алгоритмів</td>
+    </tr>
+    <tr>
+        <td>11.10-12.30</td>
+        <td colspan="3">Веб-технології та веб-дизайн</td>
+    </tr>
+    <tr>
+        <td rowspan="3">СЕРЕДА</td>
+        <td>8.00-9.20</td>
+        <td>Об'єктно-орієнтоване програмування</td>
+        <td colspan="2">Продакт-менеджмент</td>
+    </tr>
+    <tr>
+        <td>9.35-10.55</td>
+        <td>Теорії алгоритмів</td>
+        <td>Дискретна математика</td>
+        <td>Імітаційне моделювання</td>
+    </tr>
+    <tr>
+        <td>11.10-12.30</td>
+        <td colspan="3">Веб-технології та веб-дизайн</td>
+    </tr>
+
+    <tr>
+        <td rowspan="3">ЧЕТВЕР</td>
+        <td>8.00-9.20</td>
+        <td colspan="3">Імітаційне моделювання</td>
+    </tr>
+    <tr>
+        <td>9.35-10.55</td>
+        <td>Теорії алгоритмів</td>
+        <td colspan="2">Продакт-менеджмент</td>
+    </tr>
+    <tr>
+        <td>11.10-12.30</td>
+        <td colspan="3">Об'єктно-орієнтоване програмування</td>
+    </tr>
+
+    <tr>
+        <td rowspan="3">П'ЯТНИЦЯ</td>
+        <td>8.00-9.20</td>
+        <td colspan="3">Дискретна математика</td>
+    </tr>
+    <tr>
+        <td>9.35-10.55</td>
+        <td>Веб-технології та веб-дизайн</td>
+        <td colspan="2">Імітаційне моделювання</td>
+    </tr>
+    <tr>
+        <td>11.10-12.30</td>
+        <td colspan="3">Продакт-менеджмент</td>
+    </tr>
+    </tbody>
+</table>
+<hr/>
+
+<h2>АВТОРИЗАЦІЯ НА САЙТІ</h2>
+<form>
+    <label for="login">Логін:</label><br>
+    <input type="text" id="login" name="login" required><br><br>
+
+    <label for="password">Пароль:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <a href="/forgot-password">Забули пароль?</a><br><br>
+
+    <button type="submit">Войти</button>
+</form>
+<hr/>
+
+<h2>Форма</h2>
+<form>
+    <label for="nickname"><strong>Ім'я*</strong></label><br/>
+    <input type="text" id="nickname" name="nickname" required/>
+
+    <br/><br/>
+
+    <label for="email"><strong>Email*</strong></label><br/>
+    <input type="email" id="email" name="email" required placeholder="example@gmail.com"/>
+
+    <br/><br/>
+
+    <label for="telephone"><strong>Номер телефону*</strong></label><br/>
+    <input type="tel" id="telephone" name="telephone" required placeholder="+38 099 999 99 99"/>
+</form>
+<hr/>
+
+<h2>Реєстрація</h2>
+<form>
+    <input type="text" id="your-name" name="your-name" required placeholder="Ваше имя"/><br/><br/>
+    <input type="email" id="your-email" name="your-email" required placeholder="Ваш e-mail"/><br/><br/>
+    <input type="tel" id="your-tel" name="your-tel" required placeholder="Ваш телефон"/><br/><br/>
+    <input type="password" id="your-password" name="your-password" required placeholder="Пароль"/><br/><br/>
+    <input type="password" id="your-password-again" name="your-password-again" required placeholder="Пароль ещё раз"/><br/><br/>
+    <button type="submit">Регистрация</button>
+</form>
+<hr/>
+
+<h2>Bug form</h2>
+<form>
+    <label for="bug-title">Bug title*</label>
+    <input type="text" id="bug-title" name="bug-title" required/>
+    <br/><br/>
+
+    <label for="issue-description">Issue-description*</label>
+    <input type="text" id="issue-description" name="issue-description" required/>
+    <br/><br/>
+
+    <label for="operating-system">Operating system*</label>
+    <select id="operating-system" name="-Select-" required>
+        <option>Operating system</option>
+    </select>
+    <br/><br/>
+
+    <label>Browser*<br/>
+        <input type="radio" id="explorer" name="browser">
+        <label for="explorer">Internet Explorer</label><br>
+        <input type="radio" id="chrome" name="browser">
+        <label for="chrome">Chrome</label><br>
+        <input type="radio" id="firefox" name="browser">
+        <label for="firefox">Firefox</label><br>
+        <input type="radio" id="safari" name="browser">
+        <label for="safari">Safari</label><br>
+        <input type="radio" id="opera" name="browser">
+        <label for="opera">Opera</label><br>
+        <input type="radio" id="other" name="browser">
+        <label for="other">Other</label><br>
+        <input/><br/>
+    </label><br/>
+
+    <label for="assigned-to">Assigned to*</label>
+    <select id="assigned-to" name="-Select-" required>
+        <option>Admin</option>
+    </select>
+    <br/><br/>
+
+    <label for="priority">Priority*</label>
+    <select id="Priority" name="-Select-" required>
+        <option>First</option>
+        <option>Second</option>
+    </select>
+    <br/><br/>
+
+    <label for="screenshot">Screenshot</label>
+    <input type="file" id="screenshot" name="screenshot"/>
+    <br/><br/>
+
+    <label for="status">Status*</label>
+    <select id="status" name="-Select-" required>
+        <option>First</option>
+        <option>Second</option>
+    </select>
+    <br/><br/>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
